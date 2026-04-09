@@ -1,9 +1,18 @@
 import Image from "next/image"
+import { GoPaperclip } from "react-icons/go";
 
 export default function Hero() {
     return (
-        <div className="bg-[#F2F2F2] p-6 rounded-xl border border-black/4">
-            <div className="rounded-full overflow-hidden shadow-2xl w-[100px] pt-0.5 h-[100px]">
+        <div className="relative bg-[#F2F2F2] p-6 rounded-xl border border-black/4">
+            <a
+            href="/resume.pdf"
+            className="right-8 top-8 absolute"
+            target="_blank"
+            title="resume"
+            >
+           <GoPaperclip size={20} className="text-gray-500 hover:text-gray-700 cursor-pointer"/>
+            </a>
+            <div className="rounded-full overflow-hidden shadow-2xl w-25 h-25">
             <Image src='/shanky.png' alt="profile" width={100} height={100} className=" " />
             </div>
             <div className="flex  justify-between">
