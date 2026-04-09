@@ -2,6 +2,16 @@
 import ProjectCard from "./ProjectCard";
 
 const projects =[
+    
+    {
+        name:"SEB",
+        details:`Advanced procurement solution designed to simplify
+        workflows, streamline supplier collaboration, and optimize supply chain efficiency through
+        seamless transactions and real-time data exchange.`,
+        sector:"Procurement",
+        rotation:"-rotate-3 ml-auto",
+        className:"bg-[#E6ECFF] p-4 rounded-lg border border-[#DEE7FF]"
+    },                              
     {
         name:"Enact",
         details:`Tavant’s AI-powered digital lending platform, designed to

@@ -3,7 +3,7 @@ import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import StackAndSkills from "@/components/StackAndSkills";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (

@@ -8,7 +8,7 @@ export default function StackCard({ url, title }: { url?: string, title: string 
                 url && <Image src={url} alt="stack" width={20} height={20} className="rounded-sm" />
             }
             
-            <h3 className="text-sm">{title} </h3>
+            <h3 className="text-xs md:text-sm">{title} </h3>
 
         </div>
     )

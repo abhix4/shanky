@@ -14,9 +14,9 @@ export default function ExperienceCard({
             </div>
             <div>
                 <h3>{name}</h3>
-                <p className="text-sm text-gray-500">{designation}</p>
+                <p className="text-xs md:text-sm text-gray-500">{designation}</p>
             </div>
-            <p className="ml-auto text-sm ">{duration}</p>
+            <p className="ml-auto text-xs md:text-sm ">{duration}</p>
         </div>
     )
 }
