@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
     return (
-        <div className="bg-[#F2F2F2] w-xl p-6 rounded-xl border border-black/4">
+        <div className="bg-[#F2F2F2] p-6 rounded-xl border border-black/4">
             <h2 className="uppercase text-md font-medium">Projects</h2>
             <div className="flex flex-col gap-16 justify-between mt-6">
 
