@@ -49,7 +49,7 @@ export default function Projects() {
             filter: 'blur(0px)',
             transition: {
                 duration: 0.2,
-                delay: i * 0.4,
+                delay: i * 0.5,
                 type: 'spring' as const
             },
         }),

@@ -1,4 +1,5 @@
 "use client"
+import RocketBlast from "@/components/ascii/rocket-blast";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
@@ -72,6 +73,7 @@ export default function Home() {
         >
           <Contact />
         </motion.div>
+        <RocketBlast/>
       </div>
     </div>
   );
